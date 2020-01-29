@@ -3,5 +3,5 @@
 <script>
 const date = new Date("January 30, 2020 06:00:00")
 const countdown = new Date(Date.getTime() - date.getTime())
-document.getElementById("countdown").innerHTML = "test\n"+countdown.getHours() + ":" + "countdown.getMinutes() + ":" + countdown.getSeconds()
+document.getElementById("countdown").innerHTML = "test" + "lol"
 </script>
