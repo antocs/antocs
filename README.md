@@ -1,5 +1,7 @@
-<div id="text"></div>
- 
+<div id="countdown"></div>
+
 <script>
-document.getElementById("text").innerHTML = "Text added by JavaScript code";
+const date = new Date("January 30, 2020 06:00:00")
+const countdown = new Date(Date.now() - date.now())
+document.getElementById("countdown").innerHTML = countdown.getHours() + ":" + "countdown.getMinutes() + ":" + countdown.getSeconds()
 </script>
